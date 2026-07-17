@@ -36,7 +36,7 @@
     "webpack-defaults": "webpack-defaults"
   },
   "dependencies": {
-    "async": "^2.4.1",
+    "async": ">=2.6.4",
     "loader-utils": "^1.1.0",
     "schema-utils": "^0.3.0",
     "webpack-sources": "^1.0.1"
@@ -81,5 +81,11 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "overrides": {
+    "async": ">=2.6.4"
+  },
+  "resolutions": {
+    "async": ">=2.6.4"
   }
 }
